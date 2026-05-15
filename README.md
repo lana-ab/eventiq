@@ -1,21 +1,22 @@
 # EventIQ — Event & Store Management App
+A Flutter mobile application built as part of a university group project. The app connects to a REST API and follows the MVC architecture.
 
-A modern, cross-platform mobile application built using **Flutter** and powered by a RESTful backend. This repository highlights the clean architectural patterns, state management, and code organization used in the development process.
+Tech Stack
+* Flutter & Dart
+* MVC Architecture
+* GetX for state management
+* HTTP for API requests
+* SharedPreferences for session handling
 
- Tech Stack & Architecture
-* **Framework:** Flutter & Dart
-* **Architecture / Pattern:** MVC (Model-View-Controller)
-* **State Management:** GetX (Reactive Programming)
-* **Networking:** HTTP Client with Bearer Token Authorization
-* **Local Storage:** Shared Preferences for session tracking
-
- 
 Project Structure (Core)
-The codebase strictly follows standard clean organization:
-* `lib/view/`: UI Screens and custom layout components.
-* `lib/logic/controllers/`: Business logic, reactive state handling, and API events.
-* `lib/model/`: Strongly-typed data models and JSON Parsing factory constructors.
-* `lib/services/`: Network service providers for centralizing API requests.
-* `lib/routes/`: Centralized application routing management.
+* lib/view/ → UI screens (Home, Companies, Events, Services, Bookings, Profile)
+* lib/logic/controllers/ → app logic, state handling, and API events
+* lib/model/ → data models and JSON parsing
+* lib/services/ → API requests and network handling
+* lib/routes/ → application navigation
 
-
+My Contribution
+* Built UI screens for Home, Companies, Events, Services, Bookings, and Profile
+* Worked on search feature and data display
+* Connected UI with backend API responses
+* Participated in team development and testing
