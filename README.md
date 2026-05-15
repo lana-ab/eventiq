@@ -1,4 +1,4 @@
-# EventIQ — Event & Store Management App
+# EventIQ — Event Management App
 A Flutter mobile application built as part of a university group project. The app connects to a REST API and follows the MVC architecture.
 
 Tech Stack
